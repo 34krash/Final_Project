@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Happiness by Country</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1/12/9/umd/popper.min/js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Header-->
+<header class = "row">
+    <h1><a href = "index.html">Happiness Index</a></h1>
+    <nav class="navbar navbar-expand-md navbar-light" id = "right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="lat_vs_humid.html">Humidity</a>
+                    <a class="dropdown-item" href="lat_vs_cloud.html">Cloudiness</a>
+                    <a class="dropdown-item" href="lat_vs_wind.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<!--Main information-->
+<div id = "jumbotron_container">
+    <!-- <img src="Images/jumbotron.png" alt = "sunset" width=100%> -->
+    <h5>What Defines Happiness</br> 
+    in a Population?</h5>
+</div>
+
+<div class = "container-fluid">
+    <div class = "row">
+        <div class = "col-md-9 col-sm-12" id = "info">
+            <h2>Summary:</h2>
+            <hr>
+            <img src = "Resources/assets/images/Fig1.png" height = "200" width = "250">
+            <p>The purpose of this project was  
+            </p>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
