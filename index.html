@@ -15,7 +15,7 @@
 
 <!--Header-->
 <header class = "row">
-    <h1><a href = "index.html">Happiness Index</a></h1>
+    <h1><a href = "index.html">Home</a></h1>
     <nav class="navbar navbar-expand-md navbar-light" id = "right">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,17 +25,18 @@
             <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
+                    Analysis
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                    <a class="dropdown-item" href="lat_vs_humid.html">Humidity</a>
-                    <a class="dropdown-item" href="lat_vs_cloud.html">Cloudiness</a>
-                    <a class="dropdown-item" href="lat_vs_wind.html">Wind Speed</a>
+                    <a class="dropdown-item" href="happiest-countries.html">5 Happiest Countries</a>
+                    <a class="dropdown-item" href="saddest-countries.html">5 Least Happy Countries</a>
+                    <a class="dropdown-item" href="lat_vs_cloud.html">Comparative Analysis</a>
+                    <a class="dropdown-item" href="lat_vs_wind.html">Trends</a>
+                    <a class="dropdown-item" href="lat_vs_wind.html">Heat Map</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Comparison</a>
+                <a class="nav-link" href="comparisons.html">Methodology</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="data.html">Data</a>
@@ -49,17 +50,24 @@
 <!--Main information-->
 <div id = "jumbotron_container">
     <!-- <img src="Images/jumbotron.png" alt = "sunset" width=100%> -->
-    <h5>What Defines Happiness</br> 
-    in a Population?</h5>
+    <h5>Predicting World</br> 
+    Happiness</h5>
 </div>
 
 <div class = "container-fluid">
     <div class = "row">
         <div class = "col-md-9 col-sm-12" id = "info">
             <h2>Summary:</h2>
-            <hr>
-            <img src = "Resources/assets/images/Fig1.png" height = "200" width = "250">
-            <p>The purpose of this project was  
+            <img src = "Images/magnify.jpg" height = "350" >
+            <p>We examined annual World Happiness Reports, surveys of the state of global happiness which ranks 155 countries 
+                by their happiness levels.
+            </p>
+            <p>The reports review the state of happiness in the world today. Governments, organizations, 
+                and civil society increasingly use happiness indicators to inform their policy-making decisions. We applied machine 
+                learning to the current world happiness indicators to make predictions on future world happiness. 
+            </p>
+            <p>According to our predictions, in the next 5 years <a id = link href = "happiest-countries.html" >the 5 happiest countries</a> will be the happiest countries and in the 
+                world and <a id = link href = "saddest-countries.html" >the 5 least happy countries</a>. 
             </p>
         </div>
         

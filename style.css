@@ -15,6 +15,14 @@ header {
     margin-right: 2%;
 }
 
+#link {
+    color: blue;
+}
+
+img {
+    margin-right: 2%;
+}
+
 body {
     background-color: #6B7A8F;
     /* Blueberry */
