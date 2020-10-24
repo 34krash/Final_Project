@@ -15,6 +15,11 @@ header {
     margin-right: 2%;
 }
 
+img {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
 body {
     background-color: #6B7A8F;
     /* Blueberry */
@@ -35,6 +40,23 @@ a { color: inherit;
     background-attachment: fixed;
 }
 
+
+footer {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #DCC7AA;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer_list {
+    display: inline-block;
+    padding-right: 2%;
+}
+
 h1 {
     color:white;
     background-color: #F7C331;
@@ -45,6 +67,32 @@ h1 {
     font-size: 200%;
     margin-left: 10px;    
     margin-bottom: 0%;
+}
+
+h2 {
+    color: #6B7A8F;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h3 {
+    font-size: 175%;
+    text-align: center;
+    color: #6B7A8F;
+    padding-top: 2%;
+}
+
+h5 {
+    font-size: 275%;
+    padding-top: 12%;
+    padding-left: 15%;
+    padding-bottom: 25%;
+    color: white;
+}
+h6 {
+    color: #6B7A8F;
+    padding: 1%;
+    padding-right: 3%;
 }
 
 #info {
@@ -58,30 +106,13 @@ hr {
     margin-bottom: 10%;
 }
 
+#contact-hr {
+    margin: 2%;
+
+}
 
 #info img {
     float: left;
-}
-
-h2 {
-    color: rgb(81, 183, 214);
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-h5 {
-    font-size: 275%;
-    padding-top: 12%;
-    padding-left: 15%;
-    padding-bottom: 25%;
-    color: white;
-}
-
-#visualizations {
-    background-color: white;
-    float: right;
-    margin-left: 10px;
-    margin-top: 40px;
 }
 
 #img_box {
@@ -90,78 +121,8 @@ h5 {
     flex-wrap: wrap;
 }
 
-#comparison_container hr {
-    margin-bottom: 3%;
-}
-
-#comp_info {
-    background-color: white;
-    margin-left: auto;
-    margin-top: 40px;
-    margin-right: auto;
-}
-
 p {
     font-size: 90%;
-}
-
-h3 {
-    font-size: 115%;
-    margin-left: 30%;
-    margin-right: auto;
-    color: rgb(81, 183, 214);
-}
-
-#comp_info .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5% 4px;
-}
-
-#comp_info .column {
-    flex: 50%;
-    max-width: 50%;
-}
-
-#comp_info .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-#vis_fig {
-    max-width: 100%;
-}
-
-#data_info {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    padding: 1%;
-}
-
-#data_info h2 {
-    margin-top: 1%;
-    margin-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#data_info hr {
-    margin-bottom: 5%;
-}
-
-table {
-    max-width: 100%;
-    border-collapse: inherit;
-    table-layout: fixed;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#table_scroll {
-    overflow: scroll;
 }
 
 /*---Media Queries --*/
