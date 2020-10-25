@@ -134,6 +134,10 @@ p {
     font-size: 90%;
 }
 
+.logo {
+    margin: auto;
+    padding-bottom: 1%;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
