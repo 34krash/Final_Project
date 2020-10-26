@@ -50,6 +50,8 @@ footer {
     margin-top: 1%;
     display: inline-block;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer_list {
@@ -114,6 +116,7 @@ hr {
     margin-top: 0%;
     margin-bottom: 10%;
 }
+
 
 table {
     margin: auto;
