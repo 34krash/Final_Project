@@ -115,6 +115,10 @@ hr {
     margin-bottom: 10%;
 }
 
+table {
+    margin: auto;
+}
+
 .contact hr {
     margin: 2%;
 
