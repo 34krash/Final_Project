@@ -50,8 +50,8 @@ footer {
     margin-top: 1%;
     display: inline-block;
     width: 100%;
-    position: fixed;
     bottom: 0;
+    left: 0;
 }
 
 .footer_list {
