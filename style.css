@@ -117,6 +117,7 @@ hr {
 
 table {
     margin: auto;
+    border-collapse: separate;
 }
 
 .contact hr {
