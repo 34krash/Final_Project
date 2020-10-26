@@ -60,75 +60,84 @@
 
 <div class = "container-fluid">
     <div class = "row">
-      <div class = "col-md-9 col-sm-12" id = "info">
+        <div class = "col-md-9 col-sm-12" id = "info">
             <h2>Summary:</h2>
-        <img src = "Images/magnify.jpg" height = "250" >
-        <p>We collected and examined annual world data. Our primary source was The World Happiness Report, a publication of the Sustainable Development Solutions Network, powered by data from the Gallup World Poll. The report surveys the state of global happiness and ranks 155 countries by their happiness levels.
-        </p>
-        <p>The report reviews the state of happiness in the world today. Governments, organizations, and civil 
-            society increasingly use happiness indicators to inform their policy-making decisions. We used this plus 
-            additional world data sources to analyze historical global trends. We applied machine 
-            learning to the data to make predictions on future world happiness.</br></br>
-          </p>
-          <p>The table below represents our predictions for the next 5 years of the top 5 happiest countries 
-              and the 5 least happy countries. </br></br></p>
+            <img src = "Images/magnify.jpg" height = "250" >
+            <p>We collected and examined annual world data. Our primary source were The World Happiness 
+                Reports, an annual publication of the Sustainable Development Solutions Network, powered 
+                by data from the Gallup World Poll. The report surveys the state of global happiness and 
+                ranks 155 countries by their happiness levels. The report reviews the state of happiness 
+                in the world today. Governments, organizations, and civil society increasingly use happiness 
+                indicators to inform their policy-making decisions. We used additional world data with the 
+                survey data to analyze historical global trends and their effect on this happiness level. We 
+                applied linear regression to the data to make predictions on future world happiness. 
+                </br></br></br></br></br>
+            </p>
+            <p>The table below represents our predictions for the next 5 years of the top 5 happiest 
+                countries and the 5 least happy countries. 
+            </p>
             <table width="75%" border="1">
-              <tr>
-                <th scope="col" colspan="2"><div align="center">Top 5 Happiness</div></th>
-                <th scope="col"colspan="2"><div align="center">5 Least Happy</div></th>
-                <th scope="col" colspan="2"><div align="center">Biggest Movers</div></th>
-              </tr>
-              <tr>
-                <th scope="col"><div align="center">Now</div></th>
-                <th scope="col"><div align="center">2025</div></th>
-                <th scope="col"><div align="center">Now</div></th>
-                <th scope="col"><div align="center">2025</div></th>
-                <th scope="col"><div align="center">Gainers</div></th>
-                <th scope="col"><div align="center">Losers</div></th>
-              </tr>
-              <tr>
-                <td><div align="center">Finland</div></td>
-                <td><div align="center">Finland</div></td>
-                <td><div align="center">Afghanistan</div></td>
-                <td><div align="center">Zimbabwe</div></td>
-                <td><div align="center">Benin</div></td>
-                <td><div align="center">Venezuela</div></td>
-              </tr>
-              <tr>
-                <td><div align="center">Denmark</div></td>
-                <td><div align="center">Denmark</div></td>
-                <td><div align="center">South Sudan</div></td>
-                <td><div align="center">Afghanistan</div></td>
-                <td><div align="center">Ivory Coast</div></td>
-                <td><div align="center">Zambia</div></td>
-              </tr>
-              <tr>
-                <td><div align="center">Switzerland</div></td>
-                <td><div align="center">Netherlands</div></td>
-                <td><div align="center">Zimbabwe</div></td>
-                <td><div align="center">Malawi</div></td>
-                <td><div align="center">Togo</div></td>
-                <td><div align="center">Zimbabwe</div></td>
-              </tr>
-              <tr>
-                <td><div align="center">Iceland</div></td>
-                <td><div align="center">United Kingdom</div></td>
-                <td><div align="center">Rwanda</div></td>
-                <td><div align="center">Botswana</div></td>
-                <td><div align="center">Honduras</div></td>
-                <td><div align="center">Malawi</div></td>
-              </tr>
-              <tr>
-                <td><div align="center">Norway</div></td>
-                <td><div align="center">Norway</div></td>
-                <td><div align="center">Central African Republic</div></td>
-                <td><div align="center">Zambia</div></td>
-                <td><div align="center">Burkina Faso</div></td>
-                <td><div align="center">Haiti</div></td>
-              </tr>
+                <tr>
+                    <th scope="col" colspan="2"><div align="center">Top 5 Happiness</div></th>
+                    <th scope="col"colspan="2"><div align="center">5 Least Happy</div></th>
+                    <th scope="col" colspan="2"><div align="center">Biggest Movers</div></th>
+                </tr>
+                <tr>
+                    <th scope="col"><div align="center">Now</div></th>
+                    <th scope="col"><div align="center">2025</div></th>
+                    <th scope="col"><div align="center">Now</div></th>
+                    <th scope="col"><div align="center">2025</div></th>
+                    <th scope="col"><div align="center">Gainers</div></th>
+                    <th scope="col"><div align="center">Losers</div></th>
+                </tr>
+                <tr>
+                    <td><div align="center">Finland</div></td>
+                    <td><div align="center">Finland</div></td>
+                    <td><div align="center">Afghanistan</div></td>
+                    <td><div align="center">Zimbabwe</div></td>
+                    <td><div align="center">Benin</div></td>
+                    <td><div align="center">Venezuela</div></td>
+                </tr>
+                <tr>
+                    <td><div align="center">Denmark</div></td>
+                    <td><div align="center">Denmark</div></td>
+                    <td><div align="center">South Sudan</div></td>
+                    <td><div align="center">Afghanistan</div></td>
+                    <td><div align="center">Ivory Coast</div></td>
+                    <td><div align="center">Zambia</div></td>
+                </tr>
+                <tr>
+                    <td><div align="center">Switzerland</div></td>
+                    <td><div align="center">Netherlands</div></td>
+                    <td><div align="center">Zimbabwe</div></td>
+                    <td><div align="center">Malawi</div></td>
+                    <td><div align="center">Togo</div></td>
+                    <td><div align="center">Zimbabwe</div></td>
+                </tr>
+                <tr>
+                    <td><div align="center">Iceland</div></td>
+                    <td><div align="center">United Kingdom</div></td>
+                    <td><div align="center">Rwanda</div></td>
+                    <td><div align="center">Botswana</div></td>
+                    <td><div align="center">Honduras</div></td>
+                    <td><div align="center">Malawi</div></td>
+                </tr>
+                <tr>
+                    <td><div align="center">Norway</div></td>
+                    <td><div align="center">Norway</div></td>
+                    <td><div align="center">Central African Republic</div></td>
+                    <td><div align="center">Zambia</div></td>
+                    <td><div align="center">Burkina Faso</div></td>
+                    <td><div align="center">Haiti</div></td>
+                </tr>
             </table>
             <p><center>* 2020 US ranking = 15th. 2025 US ranking = 39th</center></p>
-            <p>We used machine learning to first predict the happiness of the country for the next 5 years. Due to us only having data from 2015-2020, we did not want to predict further than 2025. Finally, we used machine learning to run a train-test split to test how accurate the different indicators chosen really were in predicting the happiness of a country.</p> 
+            <p>We used machine learning to first predict the happiness of the country for the next 5 
+                years. Due to us only having data from 2015-2020, we did not want to predict further 
+                than 2025. Finally, we used machine learning to run a train-test split to test how 
+                accurate the different indicators chosen really were in predicting the happiness of a 
+                country.
+            </p> 
         </div>
         
     </div>

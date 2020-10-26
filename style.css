@@ -153,19 +153,12 @@ p {
         margin-top: 0px;
     }
     header {
-        background-color: rgb(81, 183, 214);
+        background-color: #F7C331;
         margin-bottom: 0%;
         padding-top: 1%;
         padding-bottom: 1%;
     }
-    #visualizations {
-        margin-left: 0%;
-        margin-top: 0%;
-    }
-    #comparison_container {
-        padding-left: 0%;
-        padding-right: 0%;
-    }
+
     #comp_info .column {
         flex: 100%;
         max-width: 100%;
@@ -176,14 +169,7 @@ p {
         margin-left: 0px;
         margin-top: 0px;
     }
-    #visualizations {
-        margin-left: 0%;
-        margin-top: 0%;
-    }
-    #comparison_container {
-        padding-left: 0%;
-        padding-right: 0%;
-    }
+
     #comp_info .column {
         flex: 100%;
         max-width: 100%;
