@@ -22,28 +22,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="dashboard.html">Dashboard</a>
-            </li>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Analysis
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="trends.html">Trends</a>
-                    <a class="dropdown-item" href="predictions.html">Predictions</a>            
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="methodology.html">Methodology</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sources.html">Sources</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact-us.html">Contact Us</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="context.html">Context</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">What Makes Us Happy?</a>
+                </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Analysis
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="trends.html">Trends</a>
+                        <a class="dropdown-item" href="predictions.html">Predictions</a>            
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="methodology.html">Methodology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sources.html">Sources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -55,9 +58,44 @@
     <div class = "row">
         <div class = "col-md-10 col-sm-12" id = "info">
             <h2>Methodology</h2>
-            <p>Text to support visuals. 
+            <p>We used The World Happiness Report comprehensive qualitative data approach as a baseline happiness 
+                score to analyze and make our initial predictions. Each of the six indicators of The World Happiness 
+                Report are identified for their ability to statistically represent key aspects indicating happiness. 
+                The data sets were cleaned, normalized and scaled for comparative analysis. The data from the 2020 
+                report was then redefined. We found the median value from The World Happiness Report for 2020 to allow 
+                us to bring in a value for 2018 and allow us to take advantage of 5 years of existing data. We 
+                manipulated the data using Python with Pandas and Matplotlib to merge csv and create early scatter 
+                plots with latitude and longitude coordinates. Matplotlib serves as a great tool to help visualize 
+                results but it’s stylization options were not optimal for performing the in-depth analysis needed for
+                 our presentation. We integrated our cleaned and manipulated csv files to Tableau to help tell our 
+                 story.
             </p>
-            <img src = "Images/jumbotron.png">
+            <p>The trends identified in the quantitative analysis for each country are then compared with 
+                the provisional scores. First, we used singular regression to make predictions on future 
+                happiness. Applying singular regression machine learning to The World Happiness Report 
+                data we were able to make future happiness predictions. We only predicted 5 years out, 
+                because we only had 2015-2020 data so we didn’t want to project further than that.
+            </p>
+            <p>Finally, we layered in additional data with The World Happiness Report and applied train 
+                test machine learning to test the predictability of certain variables. The variables 
+                chosen were the Corruption Perceptions Index, Military Expenditure, GDP and life 
+                expectancy. With these, we decided to test whether these are good indicators of happiness 
+                across this time.
+            </p>
+            <div class="row">
+                <div class="logo">
+                    <img src="Images/python.png" height="30">
+                </div>
+                <div class="logo">
+                    <img src="Images/tableau.png" height="50">
+                </div>
+                <div class="logo">
+                    <img src="Images/html.png" height="50">
+                </div>
+                <div class="logo">
+                    <img src="Images/css.png" height="60">
+                </div>
+            </div>
         </div>
         
     </div>
@@ -66,7 +104,7 @@
     <h6><center><ul>
         <li class = "footer_list">Jason Cristini</li>
         <li class = "footer_list">|</li>
-        <li class = "footer_list">Gabe Juimo</li>
+        <li class = "footer_list">Gabriel Djeudeu</li>
         <li class = "footer_list">|</li>
         <li class = "footer_list">Eli Krash</li>
         <li class = "footer_list">|</li>

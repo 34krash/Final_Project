@@ -97,8 +97,17 @@ h6 {
 
 #info {
     background-color: white;
-    margin-left: 7%;
+    margin: auto;
     margin-top: 40px;
+}
+
+.tableauPlaceholder {
+    max-width: 100%;
+}
+
+.contact a {
+    color: blue;
+    font-size: 150%;
 }
 
 hr {
@@ -106,7 +115,7 @@ hr {
     margin-bottom: 10%;
 }
 
-#contact-hr {
+.contact hr {
     margin: 2%;
 
 }
@@ -123,6 +132,11 @@ hr {
 
 p {
     font-size: 90%;
+}
+
+.logo {
+    margin: auto;
+    padding-bottom: 1%;
 }
 
 /*---Media Queries --*/
