@@ -1,0 +1,111 @@
+Project 3 - Predicting world happiness 
+
+
+megaGroup
+
+
+Aja Ould
+Althea McMillian
+Brittaney Marshall
+Eli Krash 
+Gabe Juimo 
+Jason Cristini 
+
+
+Objective: Examine and apply machine learning to current data on world happiness indicators to make predictions on future world happiness. 
+
+
+Report outline: Can we make predictions on future happiness? 
+
+
+What makes us happy? Describe and define data (world happiness indicators) 
+GDP per capita, Healthy Life Expectancy, Social support, Freedom to make life choices, Generosity, Corruption Perception
+https://github.com/34krash/Final_Project
+https://www.kaggle.com/mathurinache/world-happiness-report
+https://fragilestatesindex.org/indicators/
+https://worldhappiness.report/archive/
+
+
+Analyze happiness indicators 
+Determine where ML; use to examine any correlations between existing 
+Can we predict countries’ happiness over x amount of time? (10 years) 
+
+
+
+
+Summary
+We collected and examined annual world data. Our primary source were The World Happiness Reports, an annual publication of the Sustainable Development Solutions Network, powered by data from the Gallup World Poll. The report surveys the state of global happiness and ranks 155 countries by their happiness levels. The report reviews the state of happiness in the world today. Governments, organizations, and civil society increasingly use happiness indicators to inform their policy-making decisions. We used additional world data with the survey data to analyze historical global trends and their effect on this happiness level. We applied linear regression to the data to make predictions on future world happiness. 
+
+
+The table below represents our predictions for the next 5 years of the top 5 happiest countries and the 5 least happy countries.
+Top 5 Happiness
+	Top 5 least happy
+	Biggest Movers
+	Now
+	  2025
+	Now
+	2025
+	Gainers
+	Losers
+	 Finland
+	 Finland
+	Afghanistan
+	Zimbabwe
+
+
+	Benin
+	Venezuela
+	Denmark
+	 Denmark
+	South Sudan
+	Afghanistan
+	Ivory Coast
+	Zambia
+	Switzerland
+	 Netherlands
+	Zimbabwe
+	Malawi
+	Togo
+	Zimbabwe
+	Iceland
+	United Kingdom
+	 Rwanda
+	Botswana
+	Honduras
+	Malawi
+	Norway
+	Norway
+	Central African Republic
+
+
+	Zambia
+	Burkina Faso
+	Haiti
+	
+
+* 2020 US ranking = 15th. 2025 US ranking = 39th
+We used machine learning to first predict the happiness of the country for the next 5 years. Due to us only having data from 2015-2020, we did not want to predict further than 2025. Finally, we used machine learning to run a train-test split to test how accurate the different indicators chosen really were in predicting the happiness of a country. 
+Context
+The reasons for happiness are complex but not unpredictable. To have meaningful data we had to identify and grasp broad social trends using several sets of data sourced primarily from Gallup World Poll data in The World Happiness Reports. We also collected additional data on countries' military expenditure, social support, life expectancy, government corruption perceptions, and household income. 
+The happiness scores and rankings from The World Happiness Reports are based on answers to the main life evaluation question asked in the poll. This question is known as the Cantril ladder. It asks respondents to think of a range, with the best possible life for them being a 10, and the worst possible life being a 0. They are then asked to rate their own current lives on that 0 to 10 scale.  The scores are from nationally representative samples for the years 2013-2018 and use the Gallup weights to make the estimates representative.
+The data associated with the following happiness score estimates the extent to which each of six factors – economic production, social support, life expectancy, freedom, absence of corruption, and generosity – contribute to making life evaluations higher in each country than they are in Dystopia, a hypothetical country that has values equal to the world’s lowest national averages for each of the six factors. They have no impact on the total score reported for each country, but they do explain why some countries rank higher than others.
+The factors in the report are as follows: GDP per capita, healthy life expectancy, social support, generosity, freedom to make life choices, and perceived corruption.  Social support is defined as the answer to the following question: If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?  Freedom is defined as: Are you satisfied or dissatisfied with your freedom to choose what you do with your life?  Generosity is defined as: Have you donated money to a charity in the past month? Corruption is defined as the answers to two questions: Is corruption widespread throughout the government or not? And: Is corruption widespread within businesses or not? 
+Because the happiness data is distributed and weighted in the World Happiness Reports we pulled in additional data that was not distributed or weighted. The additional quantitative data was on countries' military expenditure, social support, life expectancy, government corruption perceptions, and household income[a]. We used this data to compare happiness to the individual indicators to analyze and make further predictions. 
+
+
+Methodology 
+
+
+We used The World Happiness Report comprehensive qualitative data approach as a baseline happiness score to analyze and make our initial predictions. Each of the six indicators of The World Happiness Report is identified for their ability to statistically represent key aspects indicating happiness. The data sets were cleaned, normalized, and scaled for comparative analysis. The data from the 2020 report was then redefined. We found the median value from The World Happiness Report for 2020 which allowed us to bring in a value for 2018 and allowed us to take advantage of 5 years of existing data. We manipulated the data using Python with Pandas and Matplotlib to merge CSVs and create early scatter plots with latitude and longitude coordinates. Matplotlib served as a great tool to help visualize results but it’s stylization options were not optimal for performing the in-depth analysis needed for our presentation. We integrated our cleaned and manipulated CSV files to Tableau to help tell our story. 
+
+
+The trends identified in the quantitative analysis for each country are then compared with the provisional scores. First, we used singular regression to make predictions on future happiness. By applying singular regression machine learning to The World Happiness Report data we were able to make future happiness predictions. We only predicted 5 years out, because we only had 2015-2020 data so we didn’t want to project further than that. We were then able to make individual predictions over the next 5 years. 
+
+
+Finally, we layered in additional data with The World Happiness Report and applied train test machine learning to test the predictability of certain variables. The variables chosen were the Corruption Perceptions Index, Military Expenditure, GDP, and life expectancy. With these, we decided to test whether these are good indicators of happiness across this time. And our results were….
+
+
+We built our website with HTML and CSS using Github to host it. 
+
+
+[a]these are the same data tables as in paragraph 1 of the context
